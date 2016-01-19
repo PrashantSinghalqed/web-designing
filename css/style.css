@@ -1,0 +1,49 @@
+/*.my-container {
+    position: relative;
+    background-image: url("http://img06.deviantart.net/514d/i/2014/045/5/1/excalibur_lightdm_background_image_by_darkbeastofprey-d76fveq.png");
+    overflow: hidden;
+}
+.my-container h1 {
+  text-align: center;
+  color: #00ffbb;
+  margin-top: 100px;
+}
+.my-container:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    opacity: 0.6;
+    background-image: url("http://img06.deviantart.net/514d/i/2014/045/5/1/excalibur_lightdm_background_image_by_darkbeastofprey-d76fveq.png");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+*/
+.my-container {
+    position: relative;
+    overflow: hidden;
+}
+.my-container h1 {
+    text-align: center;
+    color: #ffffff;
+    padding: 200px;
+    position: relative;
+    z-index: 2;
+}
+.my-container img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}

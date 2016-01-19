@@ -1,0 +1,36 @@
+header,footer{
+  font-family: "Segoe UI",Arial, sans-serif;
+  vertical-align: middle;
+  font-size: 30px;
+  background-color: #999;
+  height: 25px;
+  padding: 25px 50px;
+}
+.container{
+  background-color: #F9F9F9;
+  margin: 20px 20px;
+  position: relative;
+  font-family: "Arial", sans-serif;
+}
+.column{
+  display: inline-block;
+  width: 30%;
+  padding: 8px 3px;
+}
+.column p{
+  font-size: 11px;
+}
+#column1 h3,
+#column3 h3{
+  font-size: 15px;
+}
+#column1 hr,
+#column3 hr{
+  opacity: 0.5;
+}
+#column2 h1{
+  font-size: 20px;
+}
+#column2 p{
+  padding: 5px 0px;
+}

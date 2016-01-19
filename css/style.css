@@ -38,6 +38,7 @@
     padding: 200px;
     position: relative;
     z-index: 2;
+    font-size: 30px;
 }
 .my-container img {
     position: absolute;

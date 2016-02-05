@@ -1,0 +1,54 @@
+body {
+  padding: 30px;
+}
+
+header {
+  background: lightblue;
+}
+
+section {
+  background: lightgreen;
+  width: 75%;
+  float: left;
+}
+
+article {
+  background: white;
+  margin: 0 0 1rem 0;
+}
+
+aside {
+  background: pink;
+  width: 25%;
+  float: right;
+}
+
+header,
+article,
+section,
+.module {
+  padding: 1rem;
+  box-sizing : border-box;
+}
+@media screen and (max-width:640px){
+  header, article, section, aside, .module{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    float: none;
+  }
+  header{
+    padding: 10px;
+  }
+  article {
+  margin: 0 0 1rem 0;
+  }
+  header,
+  article,
+  section,
+  .module {
+  padding: 1rem;
+  box-sizing : border-box;
+
+}

@@ -1,0 +1,13 @@
+.stubborn{
+  width: 20%;
+  position: fixed;
+  /*float: left;*/
+}
+.vrule{
+  height: 10000px;
+  width: 20px;
+  background-color: black;
+  position:relative;
+  left: 25%;
+  /*float: left;*/
+}

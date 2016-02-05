@@ -1,0 +1,38 @@
+/*html {
+    font: italic small-caps bold 14px/22px "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+}*/
+h2,
+p {
+    color: #555;
+  font: 13px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #0087cc;
+  text-decoration: none;
+}
+a:hover {
+    color: #ff7b29;
+}
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    text-shadow: 6px 6px 3px rgba(0, 0, 0, .2);
+    letter-spacing: 0.1em;
+    word-spacing: 100px;
+}
+.byline {
+  color: #9799a7;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  margin-bottom: 18px;
+  box-shadow: 3px 3px 5px 1px rgba(10,100,255,.5);
+  /*width: 5%;*/
+  text-transform: capitalize;
+}
+#typo{
+  font-family: ;
+}

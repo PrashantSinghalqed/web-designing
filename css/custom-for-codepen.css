@@ -1,87 +1,155 @@
-h1,h2,h3,h4,h5,h6{
-  font: 20px 'Trebuchet MS', sans-serif;
+
+
+
+
+body {
+  /*color: #325050;*/
+  /*background: #fff;*/
+  padding: 0;
+  margin: 0;
+  font-family: 'Libre Baskerville', sans-serif;
+  font-size: 70%;
 }
-p{
-  font: 0.9em 'Tahoma', sans-serif;
-  padding-left: 10px;
-  padding-right: 50px;
+
+a {
+    color: #0d8ba1;
+    text-decoration: none;
+    /*transition: all 0.25s ease-out;*/
 }
-#heading h1{
-  font-size: 35px;
-  color: white;
-  padding-left: 60px;
-  padding-top: 20px;
+
+a:visited {
+    color: #1a5952;
+  }
+a:hover, a:focus {
+    color: #0599c2;
+    text-decoration: underline;
 }
-#heading h2{
-  font-style: italic;
-  color: white;
-  margin-top: -20px;
-  padding-left: 60px;
+
+h1,h2,h3,h4,h5,h6 {
+    font: 20px 'Trebuchet MS', sans-serif;
 }
-#heading{
-  background-color: #35AB6B;
-  padding-top: 10px;
-  padding-bottom: 30px;
-  width: 154%;
+
+p {
+    font: 0.9em 'Tahoma', sans-serif;
+    padding-left: 10px;
+    padding-right: 50px;
 }
-.intro, .main-supporting{
-  width: 65%;
-  float: left;
+
+#heading h1 {
+    font-size: 35px;
+    color: white;
+    padding-left: 60px;
+    padding-top: 20px;
 }
-.participation{
-  background: rgba(25, 75, 75, .4);
-  width: 154%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+
+#heading h2 {
+    font-style: italic;
+    color: white;
+    margin-top: -20px;
+    padding-left: 60px;
 }
-.participation p{
-  padding-right: 40%;
+#heading {
+    background-color: #35AB6B;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    width: 154%;
 }
-.contentInfo{
-  background-color: #35AB6B;
-  text-align: center;
-  font-style: oblique;
-  font-size: 1.2em;
-  width: 154%;
-  color: white;
-  opacity: 0.6;
-  padding-top: 10px;
-  padding-bottom: 10px;
+.intro,
+.main-supporting {
+    width: 65%;
+    float: left;
 }
-footer{
-  text-align: center;
-  color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: rgba(20, 95, 95, 1);
-  width: 154%;
+.participation {
+    background: rgba(25, 75, 75, .4);
+    width: 154%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-.sidebar{
-  display: inline-block;
-  width: 35%;
-  background: rgba(75, 155, 125, .2);
+.participation p {
+    padding-right: 40%;
 }
-.sidebar ul{
-  list-style: none;
+.contentInfo {
+    background-color: #35AB6B;
+    text-align: center;
+    font-style: oblique;
+    font-size: 1.2em;
+    width: 154%;
+    color: white;
+    opacity: 0.6;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-.sidebar hr{
-  width: 65%;
-  margin-left: 0px;
+footer {
+    text-align: center;
+    color: white;
+    margin-top: 128px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(20, 95, 95, 1);
+    width: 100%;
 }
-.wrapper{
-  margin-left: 20px;
-  height: 1340px;
+.sidebar {
+    display: inline-block;
+    width: 35%;
+    background: rgba(75, 155, 125, .2);
 }
-.design-selection{
-  margin-top: 100px;
+.sidebar ul {
+    list-style: none;
 }
-.zen-resources{
-  margin-top: 150px;
+.sidebar hr {
+    width: 65%;
+    margin-left: 0px;
 }
-@font-face{
-  font-family: Graffiti;
-  src: url(fonts/GraffitiPaintBrush.ttf);
+.wrapper {
+    margin-left: 20px;
+    height: 300%;
+    box-sizing: border-box;
 }
-.design-name{
-  font-family: Graffiti;
+.design-selection {
+    margin-top: 100px;
+}
+.zen-resources {
+    margin-top: 180px;
+}
+@font-face {
+    font-family: Graffiti;
+    src: url(fonts/GraffitiPaintBrush.ttf);
+}
+.design-name {
+    font-family: Graffiti;
+}
+@font-face {
+    font-family: Open-Sans, sans-serif;
+    src: url(https://fonts.googleapis.com/css?family=Open+Sans);
+}
+.designer-name {
+    font-family: Open-Sans, sans-serif;
+}
+@media screen and (max-width:640px) {
+    .participation,
+    .benefits,
+    .contentInfo,
+    #heading,
+    #heading h1,
+    #heading h2,
+    .wrapper,
+    .intro,
+    .main-supporting,
+    .sidebar,
+    .sidebar hr,
+    footer,
+    p {
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .participation p{
+        padding-right: initial;
+    }
+    .sidebar hr{
+        width: 65%;
+        margin-left: 0px;
+    }
 }
